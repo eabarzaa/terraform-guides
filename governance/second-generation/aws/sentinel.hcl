@@ -11,7 +11,7 @@ policy "restrict-assumed-role" {
 }
 
 policy "restrict-availability-zones" {
-    enforcement_level = "soft mandatory"
+    enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-db-instance-engines" {
@@ -19,7 +19,7 @@ policy "restrict-db-instance-engines" {
 }
 
 policy "restrict-ec2-instance-type" {
-    enforcement_level = "hard mandatory"
+    enforcement_level = "hard-mandatory"
 }
 
 policy "restrict-ingress-sg-rule-cidr-blocks" {
